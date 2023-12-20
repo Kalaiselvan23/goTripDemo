@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+.inputs label
+{
+    @apply text-black flex flex-col font-semibold text-sm justify-center items-start
+}
+.input-label input,.pop-trig
+{
+    @apply focus:outline-none text-xs font-normal
+}
+.divider
+{
+    @apply w-[1px] h-full bg-slate-400 opacity-80
+}
+.auth-btn
+{
+    @apply bg-blue-500
+}
+.options
+{
+    @apply flex items-center justify-between border-b-2 border-gray-200 p-2
+}
+.counter-btn
+{
+    @apply border-blue-400 border-[1px]
+}
+.login-inputs
+{
+    @apply flex flex-col rounded-xl
+}
+.login-inputs input
+{
+    @apply p-2 rounded-xl focus:outline-none
+}
+.filter-head
+{
+    @apply font-semibold my-2
+}
+.filter-div
+{
+    @apply border-b-2 p-3
+}
+.filter-div ul
+{
+    @apply flex flex-col gap-2
+}
+.filter-div ul li
+{
+    @apply flex gap-2 items-center text-sm
+}
+.roomTable td,.roomTable th
+{
+    @apply p-5 items-center
+}
+.property
+{
+    @apply my-2
+}
+.property h2{
+    @apply font-bold text-2xl my-2
+}
+.amenity li
+{
+    @apply flex items-center p-1 gap-2
+}
+.lists li
+{
+    @apply border-2 border-gray-500 p-1 rounded-[0.5rem]
+}
+.detail-form
+{
+    @apply p-5
+}
+.detail-form input
+{
+    @apply p-5 w-full border-2 rounded-[0.2rem] text-black focus:outline-none
+}
+.summary-div
+{
+    @apply grid grid-rows-[3rem_auto] grid-cols-2 border-2 border-gray-300
+}
+.in-div
+{
+    @apply flex flex-col justify-center gap-1
+}
+.in-div h3
+{
+    @apply text-lg
+}
+.summary-hotel
+{
+    @apply col-span-2
+}
+
+.payment
+{
+    flex-direction: column; 
+
+}
